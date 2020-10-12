@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Contacto| Tacclaun</title>
+    <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=3.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/contacto.css">
+    <link rel="stylesheet" href="css/font.css">
+</head>
+<body>
+  
+   <header class="main-header">
+       <div class="container container--flex">
+        <div class="logo-container column column--50">
+        <h1 class="logo">TACCLAUN</h1>
+        </div>
+        <div class="main-header__contactInfo column column--50">
+            <p class="main-header__contactInfo__phone">
+                <span class="icon-phone">932-961-632</span>
+            </p>
+            <p class="main-header__contactInfo__address">
+                               <span class="icon-location">Ave. La Cultura, Tacna</span>
+            </p>
+        </div>  
+       </div>
+   </header>
+    <nav class="main-nav">
+        <div class="container container--flex">
+            <span class="icon-menu" id="btnmenu"></span>
+            <ul class="menu" id="menu">
+                <li class="menu__item"><a href="/" class="menu__link">Inicio</a></li>
+                <li class="menu__item"><a href="Nosotros.html" class="menu__link">Nosotros</a></li>
+                <li class="menu__item"><a href="whitus.html" class="menu__link">Trabaja Con Tacclaun</a></li>
+                <li class="menu__item"><a href="Contacto.html" class="menu__link menu__link--select">Contacto</a></li>
+            </ul>
+            <div class="social-icon">
+                <a href="https://www.facebook.com/VoluntariadoTacClaun/?ref=page_internal" class="social-icon__link"><span class="icon-facebook"></span></a>
+                <a href="https://www.instagram.com/voluntariado.tacclaun/" class="social-icon__link"><span class="icon-gato"></span></a>
+                <a href="https://mail.google.com/" class="social-icon__link"><span class="icon-mail"></span></a>
+            </div>
+        </div>
+    </nav>
+    <section class="banner">
+        <img src="img/banner1.jpg.jpg" alt="" class="banner__img">
+        <div class="banner__content"></div>
+    </section>
+    
+    <main class="main">
+        <section class="group contact">
+            <h2 class="group__title">Contáctanos</h2>
+            <div class="container container--flex">
+                <div class="contact-information column column--50">
+                    <h3 class="column__title">Información de contacto</h3>
+                    <p class="column__text">Si te gustaría trabajar con nosotros, apoyarnos, donar o comunicarte con nosotros, comunícate</p>
+                    <p class="column__text"><span class="icon-phone"></span>Telefono 1: 932-961-632</p>
+                    <p class="column__text"><span class="icon-phone"></span>telefono 2: 958-604-086</p>
+                    <p class="column__text"><span class="icon-location"></span>Av. La Cultura, Tacna</p>
+                    <p class="column__text"><span class="icon-mail"></span>voluntariadotacclaun@gmail.com</p>
+                     <div class="social-icon">
+                <a href="https://www.facebook.com/VoluntariadoTacClaun/?ref=page_internal" class="social-icon__link"><span class="icon-facebook"></span></a>
+                <a href="https://www.instagram.com/voluntariado.tacclaun/" class="social-icon__link"><span class="icon-gato"></span></a>
+                <a href="" class="social-icon__link"><span class="icon-mail"></span></a>
+                     </div>
+                    
+                </div>
+                <form action="enviar-prueba.php" method="post" class="formulario column column--50">
+                    <label for="" class="formulario__label">Nombre:</label><input type="text" class="formulario__input-txt" name="nombre">
+                    <label for="" class="formulario__label">Correo:</label><input type="text" class="formulario__input-txt" name="correo">
+                    <label for="" class="formulario__label">Teléfono:</label><input type="text" class="formulario__input-txt" name="telefono">
+                     <label for="" class="formulario__label">Mensaje:</label>
+                     <textarea name="mensaje" id="" cols="30" rows="10" class="formulario__textarea"></textarea>
+                     <input type="submit" class="btn formulario__btn" value="Enviar">
+                </form>
+            </div>
+        </section>
+           
+        </main>
+        
+        <footer class="main-footer">
+            <div class="container container--flex">
+                <div class="column column--33">
+                    <h2 class="column__title">¿Por qué visitar?</h2>
+                    <p class="column__txt">Conoce nuestra labor social, apoya y únete a nosotros. El mundo cambia con una sonrisa.</p>
+                    
+                </div>
+                <div class="column column--33">
+                    <h2 class="column__title">Contáctanos</h2>
+                    <p class="column__txt">932-961-632</p>
+                    <p class="column__txt">Av. La Cultura, Tacna</p>
+
+                </div>
+                <div class="column column--33">
+                    <h2 class="column__title">Síguenos</h2>
+                    <p class="column__txt"><a href="https://www.facebook.com/VoluntariadoTacClaun/?ref=page_internal" class="icon-facebook">Facebook</a></p>
+                    <p class="column__txt"><a href="https://www.instagram.com/voluntariado.tacclaun/" class="icon-gato">Instagram</a></p>
+                    <p class="column__txt"><a href="" class="icon-phone">932961632</a></p>
+
+                </div>
+                <p class="copy">Copyright © 2020 | Mi Sitio Web Tacclaun</p>
+            </div>
+        </footer>
+    <script src="js/menu.js"></script>
+    <script src="js/modal.js"></script>
+</body>
+</html>

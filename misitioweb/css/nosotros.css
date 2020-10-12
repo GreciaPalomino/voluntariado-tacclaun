@@ -1,0 +1,50 @@
+.our-tem {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.our-team .container--flex {
+    align-items: flex-start;
+   
+}
+.our-team__title {
+    font-family: 'Pacifico', cursive;
+    color: #DE423A;
+    font-weight: bold;
+    font-size: 1.8em;
+    margin-bottom: 10px;
+    text-align: center
+}
+.our-team__img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 10%;
+    margin: auto;
+    margin-bottom: 20px; 
+}
+.our-team__txt {
+    padding: 10px;
+    text-align: justify;
+}
+
+@media screen and (min-width:480px) {
+    .our-team__img {
+        width: 250px;
+        height: 200px;
+    }
+@media screen and (min-width:768px) {
+    .our-team__img {
+        width: 320px;
+        height: 300px;
+    }
+@media screen and (min-width:1024px) {
+    .our-team__img {
+        width: 350px;
+        height: 300px;
+    }
+@media screen and (min-width:1600px) {
+    .our-team__img {
+        width: 350px;
+        height: 300px;
+    }
+}
